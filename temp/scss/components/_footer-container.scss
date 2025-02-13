@@ -1,0 +1,93 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.footer-container {
+	display: grid; 
+  grid-template: 
+    "logo sns" auto "app app" auto "navi navi" auto "copy copy" auto / 1fr 1fr; 
+  gap: 0 0;
+	padding: 8% 6% 20%;
+	letter-spacing: 0;
+	background: #E8E8E8;
+
+	> .logo {
+		grid-area: logo;
+	}
+
+	> .sns {
+		display: flex;
+		grid-area: sns;
+		justify-content: flex-end;
+
+		li {
+			width: 30px;
+			height: 30px;
+			margin: 0 0 0 16px;
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+
+			img {
+				object-fit: contain;
+			}
+		}
+	}
+
+	> .app {
+		display: flex;
+		grid-area: app;
+		gap: 16px;
+		align-items: center;
+		justify-content: center;
+		margin: 24px 0 0;
+
+		a {
+			display: block;
+			width: max-content;
+			height: 44px;
+
+			img {
+				width: auto;
+				height: 100%;
+				object-fit: contain;
+			}
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+
+	> .navi {
+		display: flex;
+		grid-area: navi;
+		gap: 16px;
+		justify-content: center;
+		margin: 5% 0 0;
+		font-size: v.fz-clamp(14);
+		letter-spacing: 0;
+		
+		a {
+			color: #595757;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	> .copy {
+		grid-area: copy;
+		margin: 2% 0 0;
+		text-align: center;
+
+		@include v.fz(12);
+	}
+}
