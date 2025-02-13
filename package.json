@@ -1,0 +1,31 @@
+{
+  "name": "code-test",
+  "version": "1.0.0",
+  "description": "テスト用リポジトリ",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "stylelint": "^16.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "build:form": "cd form/pagination && yarn && yarn build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matsushita-yukashikado/code-test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/YUKASHIKADO/typefood-lp#readme"
+}

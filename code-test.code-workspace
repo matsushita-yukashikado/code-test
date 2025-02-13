@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"css.validate": false,
+		"scss.validate": false,
+		"stylelint.validate": ["scss"],
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".css",
+				"savePath": "~/../css",
+				"savePathReplacementPairs": null
+			}
+		],
+		"liveSassCompile.settings.excludeList": [ 
+			"/**/node_modules/**",
+			"/.vscode/**",
+			"/template/**",
+    ],
+		"liveSassCompile.settings.generateMap": false,
+		"liveServer.settings.host": "localhost",
+		"liveServer.settings.port": 6060,
+		"liveServer.settings.root": "/public"
+	}
+}
