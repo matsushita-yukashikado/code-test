@@ -20,7 +20,7 @@
 		"liveSassCompile.settings.excludeList": [ 
 			"/**/node_modules/**",
 			"/.vscode/**",
-			"/template/**",
+			"/temp/**",
     ],
 		"liveSassCompile.settings.generateMap": false,
 		"liveServer.settings.host": "localhost",

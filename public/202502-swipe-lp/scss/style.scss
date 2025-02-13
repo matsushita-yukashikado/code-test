@@ -2,34 +2,14 @@
 @use "base/variable";
 @use "base/base";
 
-// ====================================
-// Layout
-// ====================================
 @use "components/wrapper-container";
 @use "components/body-container";
 @use "components/left-container";
 @use "components/right-container";
-
-// @use "components/header-container";
 @use "components/main-container";
 @use "components/footer-container";
-@use "components/cv-container";
 @use "components/fixed-cv-container";
-
-// ====================================
-// Components
-// ====================================
 @use "components/primary-button";
-
-// @use "components/default-button";
-@use "components/default-list";
-@use "components/faq-list";
-@use "components/index-list";
-
-// ====================================
-// Section
-// ====================================
-@use "components/kv-container";
+@use "components/swipe-item";
 @use "components/section-intro";
-@use "components/section-faq";
 @use "helper";
