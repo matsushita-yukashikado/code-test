@@ -25,6 +25,6 @@
 		"liveSassCompile.settings.generateMap": false,
 		"liveServer.settings.host": "localhost",
 		"liveServer.settings.port": 6060,
-		"liveServer.settings.root": "/public"
+		"liveServer.settings.root": "/docs"
 	}
 }
