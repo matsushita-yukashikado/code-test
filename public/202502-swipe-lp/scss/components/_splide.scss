@@ -1,0 +1,13 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.splide {
+  &__pagination__page {
+    background: #b0b0b0;
+
+    &.is-active {
+      background: #f6ac19;
+      transform: scale(1);
+    }
+  }
+}

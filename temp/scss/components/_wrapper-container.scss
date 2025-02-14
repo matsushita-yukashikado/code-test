@@ -1,0 +1,21 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.wrapper-container {
+	@include v.mq-min(xl){
+		display: flex;
+		align-items: center;
+
+		> .left-container {
+			order: 1;
+		}
+
+		> .body-container {
+			order: 2;
+		}
+
+		> .right-container {
+			order: 3;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.fixed-cv-container {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 10;
+	width: min(100%,585px);
+	padding: 8px;
+	transform: translate(-50%, 0);
+
+  .primary-button {
+    width: 83%;
+  }
+}

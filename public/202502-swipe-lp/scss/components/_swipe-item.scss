@@ -1,0 +1,14 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.swipe-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  aspect-ratio: 9 / 15;
+  background: #ccc;
+
+  font-size: 40px;
+}

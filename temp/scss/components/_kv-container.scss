@@ -1,0 +1,50 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.kv-container {
+	position: relative;
+	aspect-ratio: 390 / 700;
+
+	> .title {
+		position: absolute;
+		top: 5%;
+		left: 10%;
+		width: 80%;
+	}
+
+	> .img {
+		position: absolute;
+		top: 33%;
+		left: 5%;
+		width: 42%;
+	}
+
+	> .point {
+		position: absolute;
+		top: 71%;
+		left: 7%;
+		width: 86%;
+	}
+
+	.note {
+		position: absolute;
+		bottom: 6px;
+		left: 7%;
+		font-size: v.fz-clamp(11);
+		color: #fff;
+		letter-spacing: 0;
+	}
+}
+
+// @keyframes slideInUp {
+// 	from {
+// 		visibility: visible;
+// 		opacity: 0;
+//     transform: translate3d(0, 20px, 0);
+// 	}
+// 	to {
+// 		visibility: visible;
+// 		opacity: 1;
+//     transform: translate3d(0, 0, 0);
+// 	}
+// }

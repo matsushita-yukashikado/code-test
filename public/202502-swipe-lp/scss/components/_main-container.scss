@@ -1,0 +1,53 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.main-container {
+	width: min(100vw,585px);
+	height: 100vh;
+	background: #f4f4f4;
+	padding: 16px 16px 80px 16px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+
+	// h2 {
+	// 	text-align: center;
+	// }
+
+	// h3 {
+	// 	margin: 14% 0 0;
+	// 	font-size: v.fz-clamp(19);
+	// 	font-weight: bold;
+	// 	line-height: 1.3;
+	// 	text-align: center;
+	// }
+
+	// h4 {
+	// 	margin: 10% 0 0;
+	// 	font-size: v.fz-clamp(16);
+	// 	font-weight: 700;
+	// 	text-align: center;
+	// }
+
+	// p:not([class]) {
+	// 	margin: 3% 0 0;
+	// 	font-size: v.fz-clamp(16);
+
+	// 	> span {
+	// 		font-weight: bold;
+	// 	}
+	// }
+
+	// figure {
+	// 	margin: 5% 0 0;
+	// 	text-align: center;
+
+	// 	figcaption {
+	// 		margin: 2% 0 0;
+	// 		font-size: v.fz-clamp(14);
+	// 		line-height: 1.3;
+	// 		color: v.$text-secondary;
+	// 		letter-spacing: 0;
+	// 	}
+  // }
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.cv-container {
+	padding: 8% 6%;
+	background: v.$bg-key;
+
+	> .cv-inner {
+		padding: 7% 5%;
+		background: #fff;
+	}
+
+	.title {
+		margin: 0 0 5%;
+	}
+
+	.price {
+		margin: 10% 0 0;
+	}
+
+	.cv-btn {
+		display: block;
+		margin: 3% auto 0;
+		text-align: center;
+		transition: opacity 0.3s;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+
+	.default-list {
+		margin: 8% 0 0;
+
+		li {
+			font-size: v.fz-clamp(14);
+		}
+	}
+}
