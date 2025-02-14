@@ -2,8 +2,8 @@
 @use "../base/_variable" as v;
 
 .main-container {
-	width: min(100vw,585px);
-	height: 100vh;
+	width: min(100svw,585px);
+	height: 100svh;
 	background: #f4f4f4;
 	padding: 16px 16px 80px 16px;
 	display: flex;
