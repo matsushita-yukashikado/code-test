@@ -1,0 +1,47 @@
+@charset "utf-8";
+@use "../base/_variable" as v;
+
+.main-container {
+	width: 100%;
+	height: 100%;
+}
+
+.scroll-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+  flex-direction: row;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-ms-overflow-style: none;
+
+	scroll-snap-type: x mandatory;
+}
+
+.section-conts {
+	aspect-ratio: 9/14;
+	padding: 16px;
+	scroll-snap-align: start;
+
+	@include v.mq-max(sm) {
+		min-width: 100dvw;
+		width: min(100vw,585px);
+	}
+	@include v.mq-min(sm) {
+		min-width: 585px;
+		width: 585px;
+	}
+}
+
+#s1  {
+	background: #facfcf;
+}
+
+#s2 {
+	background: #e0ffff;
+}
+
+#s3 {
+	background: #d9ecdd;
+}
